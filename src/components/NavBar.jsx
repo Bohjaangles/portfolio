@@ -1,4 +1,6 @@
 import React from 'react'
+import '../styles/navbar.scss'
+
 
 export default function NavBar() {
   return (
@@ -7,7 +9,7 @@ export default function NavBar() {
 
       </div>
       <div className="navbar-title">
-        <p>NavBar</p>
+        <p className='temp-title'>NavBar</p>
       </div>
     </div>
   )
