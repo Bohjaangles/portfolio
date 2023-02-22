@@ -13,8 +13,10 @@ function App() {
     <div className="App">
       <NavBar />
       <Header />
-      <SideBar />
-      <ProjectList />
+      <div className="body-ody">
+        <SideBar />
+        <ProjectList />
+      </div>
       <Footer />
     </div>
   )
