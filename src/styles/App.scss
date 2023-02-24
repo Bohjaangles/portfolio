@@ -2,7 +2,7 @@
 html {
   top: 0;
   left: 0;
-  max-width: 100vw;
+  max-width: 100%;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -25,8 +25,8 @@ html {
   background-color: blue;
   position: absolute;
   height: 10rem;
-  width: 90.5%;
-  left: 10rem;
+  width: 100%;
+  left: 0;
 }
 
 .body-ody {
@@ -44,18 +44,20 @@ html {
 }
 
 .projectList-wrapper {
-  left: 10rem;
+  left: 0;
   top: 10rem;
   position: relative;
-  width: 90.5%;
+  width: 100%;
   height: 100%;
+  margin-bottom: 12rem;
 }
 
 .footer-wrapper {
   bottom: 0;
-  left: 10rem;
+  left: 0;
   position: sticky;
   background-color: aqua;
   width: 100%;
-  height: 2.5rem;
+  height: 3.4rem;
+  z-index: 6;
 }
