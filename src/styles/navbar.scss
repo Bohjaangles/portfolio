@@ -1,4 +1,21 @@
-.temp-title {
+.title-wrapper {
   display: flex;
   justify-content: center;
+}
+.navbar-title{
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  height: 1.5rem;
+  border-radius: 36px;
+  background: #e0e0e0;
+  box-shadow:  13px 13px 26px #aaaaaa,
+    -13px -13px 26px #ffffff;
+  
+    .temp-title {
+    display: flex;
+    justify-content: center;
+  }
 }

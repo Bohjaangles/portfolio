@@ -8,8 +8,10 @@ export default function NavBar() {
       <div className="navbar-buttons">
 
       </div>
-      <div className="navbar-title">
-        <p className='temp-title'>NavBar</p>
+      <div className="title-wrapper">
+        <div className="navbar-title">
+          <p className='temp-title'>Russel Mueller Portfolio</p>
+        </div>
       </div>
     </div>
   )
