@@ -1,4 +1,22 @@
 .temp-title {
   display: flex;
   justify-content: center;
+  height: 20 rem;
+  width: 100%;
+}
+
+.header-image {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+.header-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

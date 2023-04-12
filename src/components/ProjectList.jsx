@@ -15,16 +15,13 @@ export default function ProjectList() {
       <h1 className='temp-title'>Project List Component</h1>
       {projArray.map(proj => {
         return (
-            <ProjectListItem 
-              className='projListItem'
-              key={proj.key}
-              name={proj.name}
-              description={proj.descritption}
-              url={proj.url}
-            >
-              
-            </ProjectListItem>
-
+          <ProjectListItem 
+            className='projListItem'
+            key={proj.key}
+            name={proj.name}
+            description={proj.descritption}
+            url={proj.url}
+          />
         )
       })}
     </div>
