@@ -9,10 +9,19 @@
   .AMTitle {
 
   }
-  .AMImage {
-
-  }
-  .AMText {
+  .largeCard{
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    justify-content: center;
     width: 80%;
+
+    .AMImage {
+      
+    }
+    .AMText {
+      width: 60%;
+      margin-left: 2.5rem;
+    }
   }
 }

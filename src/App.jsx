@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">      
       <NavBar />
-      <Header />
-      <ProjectList />
+      {/* <Header /> */}
       <AboutMe />
+      <ProjectList />
       <Footer />
     </div>
   )
